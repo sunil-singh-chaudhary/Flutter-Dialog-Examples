@@ -35,18 +35,17 @@ class ChildrensAddedonDialog extends StatelessWidget {
             ),
           ),
           Container(
-            height: 60,
-            width: 200,
-            margin: EdgeInsets.all(20),
-            decoration: decoration,
-            child: ElevatedButton(
-              onPressed: () {
-                alertDialog(context);
-              },
-              style: buttonstyles,
-              child: const Text('Alert Dialog'),
-            ),
-          ),
+              height: 60,
+              width: 200,
+              margin: EdgeInsets.all(20),
+              decoration: decoration,
+              child: ElevatedButton(
+                onPressed: () {
+                  alertDialog(context);
+                },
+                style: buttonstyles,
+                child: const Text('Alert Dialog'),
+              )),
           Container(
             height: 60,
             width: 200,

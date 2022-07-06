@@ -1,5 +1,5 @@
+import 'package:dialogdesign/alertDialogclass.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 Decoration decoration = BoxDecoration(
   image: const DecorationImage(
@@ -19,3 +19,5 @@ ButtonStyle buttonstyles = ElevatedButton.styleFrom(
     // foreground
   ),
 );
+
+btnElevated(BuildContext context) {}
